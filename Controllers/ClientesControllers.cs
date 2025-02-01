@@ -5,7 +5,7 @@ namespace PresencialesAPI.Controllers
     [Route("api/[controller]")]
     [ApiController]
 
-    public class ClientesControllers : ControllerBase
+    public class ClientesController : ControllerBase
     {
         public static List<Clientes> clientes = new List<Clientes>();
 
