@@ -6,7 +6,7 @@ namespace PresencialesAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class RegistroPedidoControllers : ControllerBase
+    public class RegistroPedidoController : ControllerBase
     {
         private static List<RegistroPedido> registro = new List<RegistroPedido>();
 

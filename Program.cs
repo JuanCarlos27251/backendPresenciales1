@@ -10,9 +10,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 BebidasController.InicializarDatos();
-ClientesControllers.InicializarDatos();
-ComidaControllers.InicializarDatos();
-RegistroPedidoControllers.InicializarDatos();
+ClientesController.InicializarDatos();
+ComidaController.InicializarDatos();
+RegistroPedidoController.InicializarDatos();
 
 var app = builder.Build();
 
